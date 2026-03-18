@@ -30,11 +30,11 @@
 <script setup>
 const projects = [
   {
-    name: 'ShowMeAMovie',
-    description: 'A movie discovery app that helps you find something to watch. Browse, search and explore films with a clean, responsive interface.',
-    tech: ['Vue', 'Nuxt', 'Bootstrap'],
-    live: 'https://grant-pie.github.io/showmeamovie/',
-    repo: 'https://github.com/grant-pie/showmeamovie'
+    name: 'Pipeline',
+    description: 'A full-stack job application tracker. Log applications, track their status through stages, and manage your job hunt in one place.',
+    tech: ['Vue', 'TypeScript', 'NestJS', 'PostgreSQL'],
+    live: 'https://pipeline.grantpieterse.com',
+    repo: 'https://github.com/grant-pie/pipeline'
   },
   {
     name: 'PieCade',
@@ -51,12 +51,19 @@ const projects = [
     repo: 'https://github.com/grant-pie/ultimate-outlander'
   },
   {
+    name: 'ShowMeAMovie',
+    description: 'A movie discovery app that helps you find something to watch. Browse, search and explore films with a clean, responsive interface.',
+    tech: ['Vue', 'Nuxt', 'Bootstrap'],
+    live: 'https://grant-pie.github.io/showmeamovie/',
+    repo: 'https://github.com/grant-pie/showmeamovie'
+  },
+  {
     name: 'Southern Cartographer',
     description: 'A portfolio site built for a professional cartographer to showcase their work. A real-world client project focused on clean presentation and visual storytelling.',
     tech: ['HTML', 'CSS'],
     live: 'https://grant-pie.github.io/southern-cartographer/',
     repo: 'https://github.com/grant-pie/southern-cartographer'
-  }
+  },
 ]
 </script>
 
