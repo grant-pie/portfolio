@@ -25,6 +25,10 @@
   padding-top: var(--nav-height);
 }
 
+.hero .container {
+  width: 100%;
+}
+
 .hero-greeting {
   font-family: var(--font-mono);
   font-size: 0.95rem;

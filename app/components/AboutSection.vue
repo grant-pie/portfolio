@@ -26,7 +26,7 @@
             <span class="about-card-label">Based in</span>
             <span class="about-card-value">South Africa</span>
             <span class="about-card-label">Education</span>
-            <span class="about-card-value">IT Diploma, Unisa</span>
+            <span class="about-card-value">ICT Diploma, Unisa</span>
           </div>
         </div>
       </div>

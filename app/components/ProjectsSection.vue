@@ -40,8 +40,22 @@ const projects = [
     name: 'PieCade',
     description: 'A collection of classic arcade-style mini games built entirely with vanilla web technologies — no frameworks, just pure HTML, CSS and JavaScript.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    live: null,
-    repo: null
+    live: 'https://grant-pie.github.io/piecade/',
+    repo: 'https://github.com/grant-pie/piecade'
+  },
+  {
+    name: 'Ultimate Outlander',
+    description: 'A utility site for the game Ultima Online Outlands that generates vendor management scripts. Built around heavy string manipulation and regex to parse and produce game-ready output.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Regex'],
+    live: 'https://ultimateoutlander.com/',
+    repo: 'https://github.com/grant-pie/ultimate-outlander'
+  },
+  {
+    name: 'Southern Cartographer',
+    description: 'A portfolio site built for a professional cartographer to showcase their work. A real-world client project focused on clean presentation and visual storytelling.',
+    tech: ['HTML', 'CSS'],
+    live: 'https://grant-pie.github.io/southern-cartographer/',
+    repo: 'https://github.com/grant-pie/southern-cartographer'
   }
 ]
 </script>
