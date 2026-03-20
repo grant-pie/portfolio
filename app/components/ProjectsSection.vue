@@ -45,7 +45,7 @@ const projects = [
   },
   {
     name: 'Ultimate Outlander',
-    description: 'A utility site for the Ultima Online Outlands community that generates vendor management scripts directly in the browser. Users configure their vendor settings through a form interface and the app uses string manipulation and regular expressions to produce correctly formatted, game-ready script output — no server required.',
+    description: 'A utility site for the Ultima Online Outlands community that generates vendor management scripts directly in the browser. The app uses string manipulation and regular expressions to produce correctly formatted, game-ready script output — no server required.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Regex'],
     live: 'https://ultimateoutlander.com/',
     repo: 'https://github.com/grant-pie/ultimate-outlander'
