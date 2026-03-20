@@ -31,35 +31,35 @@
 const projects = [
   {
     name: 'Pipeline',
-    description: 'A full-stack job application tracker. Log applications, track their status through stages, and manage your job hunt in one place.',
+    description: 'A full-stack job application tracker built to manage the entire job hunt in one place. Log applications, move them through status stages, add notes and links, and keep track of what needs follow-up. Built with a Vue 3 frontend, a NestJS REST API, and a PostgreSQL database — with JWT authentication throughout.',
     tech: ['Vue', 'TypeScript', 'NestJS', 'PostgreSQL'],
     live: 'https://pipeline.grantpieterse.com',
     repo: 'https://github.com/grant-pie/pipeline'
   },
   {
     name: 'PieCade',
-    description: 'A collection of classic arcade-style mini games built entirely with vanilla web technologies — no frameworks, just pure HTML, CSS and JavaScript.',
+    description: 'A collection of classic arcade-style mini games built entirely with vanilla web technologies — no frameworks, no libraries, just pure HTML, CSS and JavaScript. Each game is self-contained and focuses on clean game logic, collision detection, and smooth browser rendering without relying on any external tools.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     live: 'https://grant-pie.github.io/piecade/',
     repo: 'https://github.com/grant-pie/piecade'
   },
   {
     name: 'Ultimate Outlander',
-    description: 'A utility site for the game Ultima Online Outlands that generates vendor management scripts. Built around heavy string manipulation and regex to parse and produce game-ready output.',
+    description: 'A utility site for the Ultima Online Outlands community that generates vendor management scripts directly in the browser. Users configure their vendor settings through a form interface and the app uses string manipulation and regular expressions to produce correctly formatted, game-ready script output — no server required.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Regex'],
     live: 'https://ultimateoutlander.com/',
     repo: 'https://github.com/grant-pie/ultimate-outlander'
   },
   {
     name: 'ShowMeAMovie',
-    description: 'A movie discovery app that helps you find something to watch. Browse, search and explore films with a clean, responsive interface.',
+    description: 'A movie discovery app that helps you find something to watch. Browse, search and filter films pulled from a live movie database API. Built with Vue and Nuxt for fast page loads and a responsive layout that works cleanly across desktop and mobile.',
     tech: ['Vue', 'Nuxt', 'Bootstrap'],
     live: 'https://grant-pie.github.io/showmeamovie/',
     repo: 'https://github.com/grant-pie/showmeamovie'
   },
   {
     name: 'Southern Cartographer',
-    description: 'A portfolio site built for a professional cartographer to showcase their work. A real-world client project focused on clean presentation and visual storytelling.',
+    description: 'A portfolio site built for a professional cartographer to showcase their maps and projects. A real-world client project focused on clean presentation, visual storytelling, and letting the work speak for itself. Built with vanilla HTML and CSS with an emphasis on layout, typography and performance.',
     tech: ['HTML', 'CSS'],
     live: 'https://grant-pie.github.io/southern-cartographer/',
     repo: 'https://github.com/grant-pie/southern-cartographer'

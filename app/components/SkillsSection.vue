@@ -3,6 +3,7 @@
     <div class="container">
       <p class="section-label">02. Skills</p>
       <h2 class="section-title">What I Work With</h2>
+      <p class="skills-intro">My core focus is front-end development — building responsive, accessible interfaces with modern web technologies. I also have practical back-end experience which helps me collaborate across the full stack and understand the bigger picture of how applications are built and deployed.</p>
       <div class="skills-grid">
         <div class="skill-group">
           <h3 class="skill-group-title">Front-End</h3>
@@ -40,6 +41,14 @@ const tools = ['Git', 'VS Code', 'AI-assisted development (Claude Code)']
 </script>
 
 <style scoped>
+.skills-intro {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 680px;
+  margin-bottom: 40px;
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
