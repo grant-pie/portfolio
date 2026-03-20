@@ -1,8 +1,7 @@
 <template>
   <section id="hero" class="hero">
     <div class="container">
-      <p class="hero-greeting">Hi, my name is</p>
-      <h1 class="hero-name">Grant Pieterse.</h1>
+      <h1 class="hero-name">Hi, I'm Grant Pieterse.</h1>
       <h2 class="hero-title">Turning ideas into interfaces.</h2>
       <p class="hero-description">
         I'm a front-end developer who loves building things for the web.
@@ -27,13 +26,6 @@
 
 .hero .container {
   width: 100%;
-}
-
-.hero-greeting {
-  font-family: var(--font-mono);
-  font-size: 0.95rem;
-  color: var(--accent);
-  margin-bottom: 16px;
 }
 
 .hero-name {
