@@ -17,7 +17,17 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Front-End Developer specialising in Vue, TypeScript and modern web technologies.' }
+        { name: 'description', content: 'Front-End Developer specialising in Vue, TypeScript and modern web technologies.' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://grantpieterse.com/' },
+        { property: 'og:title', content: 'Grant Pieterse — Front-End Developer' },
+        { property: 'og:description', content: 'Front-End Developer specialising in Vue, TypeScript and modern web technologies.' },
+        { property: 'og:image', content: 'https://grantpieterse.com/og-image.png' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:url', content: 'https://grantpieterse.com/' },
+        { name: 'twitter:title', content: 'Grant Pieterse — Front-End Developer' },
+        { name: 'twitter:description', content: 'Front-End Developer specialising in Vue, TypeScript and modern web technologies.' },
+        { name: 'twitter:image', content: 'https://grantpieterse.com/og-image.png' }
       ]
     }
   }
