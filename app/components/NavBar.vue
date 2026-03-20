@@ -14,12 +14,12 @@
         <span></span>
       </button>
     </div>
-    <div class="nav-mobile" :class="{ open: menuOpen }">
+    <div class="nav-mobile" :class="{ open: menuOpen }" :aria-hidden="!menuOpen">
       <ul>
-        <li><a href="#about" @click="closeMenu">About</a></li>
-        <li><a href="#skills" @click="closeMenu">Skills</a></li>
-        <li><a href="#projects" @click="closeMenu">Projects</a></li>
-        <li><a href="#contact" @click="closeMenu">Contact</a></li>
+        <li><a href="#about" @click="closeMenu" :tabindex="menuOpen ? 0 : -1">About</a></li>
+        <li><a href="#skills" @click="closeMenu" :tabindex="menuOpen ? 0 : -1">Skills</a></li>
+        <li><a href="#projects" @click="closeMenu" :tabindex="menuOpen ? 0 : -1">Projects</a></li>
+        <li><a href="#contact" @click="closeMenu" :tabindex="menuOpen ? 0 : -1">Contact</a></li>
       </ul>
     </div>
   </nav>
