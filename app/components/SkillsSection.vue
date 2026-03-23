@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-const frontEnd = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Vue', 'Nuxt']
+const frontEnd = ['HTML', 'CSS', 'Bootstrap', 'Tailwind CSS', 'JavaScript', 'TypeScript', 'Vue', 'Nuxt']
 const backEnd = ['NestJS', 'SQL', 'PostgreSQL']
 const tools = ['Git', 'VS Code', 'AI-assisted development (Claude Code, Cursor)']
 </script>
