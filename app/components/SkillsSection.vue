@@ -37,7 +37,7 @@
 <script setup>
 const frontEnd = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Vue', 'Nuxt']
 const backEnd = ['NestJS', 'SQL', 'PostgreSQL']
-const tools = ['Git', 'VS Code', 'AI-assisted development (Claude Code)']
+const tools = ['Git', 'VS Code', 'AI-assisted development (Claude Code, Cursor)']
 </script>
 
 <style scoped>
